@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: black;
+  font-family: sans-serif;
+  color:#354358;
+}
+.skills {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+}
+.heading{
+  margin-left:40% ;
+}
+.skills h5 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  
+}
+
+.skills ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.skills li {
+  margin-bottom: 3px;
+}
+
+.skills p {
+  margin-top: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-image:linear-gradient(to right bottom, #00f260,#0575e6);
+
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+  height:0;
+}
