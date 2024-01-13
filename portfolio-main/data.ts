@@ -179,4 +179,14 @@ export const projects: IProject[] = [
     category: ['react','javascript'],
     key_tech: ['react', 'JavaScript','Css'],
   },
+  {
+    id: 6,
+    name: 'Pizzuria',
+    description: 'Pizzuria is an app that is made to order pizzas, do note that the api is not functionel, i have closed the api. But all the code is still there it has just been adjusted so it can fit.',
+    image_path: '/images/Pizzuria.png',
+    deployed_url: '',
+    github_url: 'https://github.com/2Akki/Pizzuria',
+    category: ['react','javascript',],
+    key_tech: ['react', 'JavaScript','Css','Tailwind'],
+  },
 ];
